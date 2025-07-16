@@ -41,5 +41,7 @@ ENV LD_LIBRARY_PATH="${LD_LIBRARY_PATH}\
 :/usr/lib/python3.11/site-packages/nvidia/nvjitlink/lib\
 :/usr/lib/python3.11/site-packages/nvidia/nvtx/lib"
 
+RUN pip3 install llama-cpp-python
+
 CMD ["sleep", "infinity"]
 
