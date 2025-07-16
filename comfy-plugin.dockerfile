@@ -1,4 +1,4 @@
-FROM 1018998632/comfy-base:latest
+FROM 1018998632/comfy-base:v1
 
 # Define build argument for version_id
 ARG version_id
